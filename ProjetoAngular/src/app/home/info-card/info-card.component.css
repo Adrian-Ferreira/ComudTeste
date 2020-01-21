@@ -1,0 +1,20 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.card{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+    background-image: linear-gradient(to right, #0b6d74e0 , #11b9c5);
+    border-color: white;
+
+}
+h1{
+    text-align: center;
+    margin-top: 47%;
+}
+.card-body{
+    border-color: white;
+}

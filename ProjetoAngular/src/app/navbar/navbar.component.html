@@ -1,0 +1,39 @@
+<header class="row" id="navbarRow">
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand tamanho" href="#"><img src="../../assets/imagensSobre/Cópia de Comud moda.png"
+                    id="logo"></a>
+            <button class=" navbar-toggler" id="buttonCollapse" type="button" data-toggle="collapse"
+                data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" [routerLink]="'/home'">Home <span class="sr-only">(página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" [routerLink]="'/sobre'">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" [routerLink]="'/contatos'">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" [routerLink]="'/produto'">Products</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" [routerLink]="'/login'">{{login}}</a>
+                    </li>
+                </ul>
+                <img id="faq" src="../../assets/faq-icon3.png" alt="FAQ" [routerLink]="'/faq'">
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline my-2 my-sm-0" type="submit">Doar</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>

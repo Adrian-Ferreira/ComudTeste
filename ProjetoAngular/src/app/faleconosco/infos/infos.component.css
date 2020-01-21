@@ -1,0 +1,24 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.info{
+    margin-top: 5%;
+    margin-bottom:3%;
+}
+.info h5{
+    margin-bottom:2%;
+    color:#059faa;
+}
+.card{
+    width:90%;
+    height:57%;
+}
+iframe{
+    width:100%;
+    height: 100%;
+}
+.info, .card{
+    margin-left: 0%;
+    margin-right: 5%;
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: #dedcc5;
+    font-weight: lighter;
+}
+h2, h3, h5{ 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color:#059faa;
+}
+textarea{
+    resize: none;
+}
+span{
+    font-size:12px;
+    color:red;
+}
+.btn{
+    background-color: #059faa;
+    margin-top:3%;
+    color:#dedcc5;
+}
+.btn-outline{
+    width: 60px;
+    height: 35px;
+    color:#dedcc5;
+    border-color:#dedcc5;
+}
+.btn-outline:hover{
+    color:#059faa;
+    background-color: #dedcc5;
+    border-color:#dedcc5;
+}
+input, textarea{
+    width: 90%;
+    margin-bottom: 18px;
+    margin-left: 5%;
+}
+button, select, label, span{
+    margin-left: 5%;
+}
+p{
+    text-align: justify;
+    margin-right: 3%;
+}
+.texto{
+    margin-left: 5%;
+}
+#slct{
+    padding: 0.8%;
+}

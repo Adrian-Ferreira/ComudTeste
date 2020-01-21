@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <div class="pesquisa">
+          <!--<label for="inputBusca">O que deseja filtrar?</label>-->
+          <input class="input text-center mb-1" type="text" placeholder="O que deseja pesquisar?" [(ngModel)]="idbusca" id="inputBusca">
+          <br/>
+          <button class="btn btn-outline ml-1" id="busca" (click)="pesquisar();">Buscar</button>
+          <button class="btn btn-outline ml-1" (click)="pesquisarTodos();">Mostrar todos</button>
+          <br/>
+          <span *ngIf='_msgErro'>{{_msgErro}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div *ngIf="lista == true">
+    <div class="row">
+  
+      <div class="col-md-4 tamanho" *ngFor="let busca of idproduto">
+        <div class="card show">
+          <img src="{{ busca.linkfoto }}">
+          <p><strong>ID do Produto         : </strong> {{ busca.idProduto }}</p>
+          <p><strong>Titulo                : </strong> {{ busca.titulo}} </p>
+          <p><strong>Detalhes              : </strong> {{ busca.detalhes }} </p>
+          <p><strong>Preço                 : </strong> R${{ busca.preco }},00 </p>
+          <p><strong>Quantidade no estoque : </strong> {{busca.qtdEstoque}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div *ngIf="lista == false">
+    <div *ngIf="_idproduto">
+      <div class="row">
+        <div class="col-md-4">
+  
+        </div>
+        <div class="col-md-4 tamanho">
+          <div class="card show">
+  
+            <img src="{{ _idproduto.linkfoto }}">
+            <p><strong>ID do Produto         : </strong>  {{ _idproduto.idProduto }}</p>
+            <p><strong>Titulo                : </strong>  {{  _idproduto.titulo}} </p>
+            <p><strong>Detalhes              : </strong>  {{  _idproduto.detalhes }}</p>
+            <p><strong>Preço                 : </strong> R${{  _idproduto.preco }},00 </p>
+            <p><strong>Quantidade no estoque : </strong>  {{ _idproduto.qtdEstoque}}</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+  
+        </div>
+      </div>
+    </div>
+  </div>
