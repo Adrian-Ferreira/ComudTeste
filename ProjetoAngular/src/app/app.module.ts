@@ -25,7 +25,8 @@ import { EditaUsuarioComponent } from './login/edita-usuario/edita-usuario.compo
 import { FaqComponent } from './faq/faq.component';
 import { FormFaqComponent } from './faq/form-faq/form-faq.component';
 import { CarrosselComponent } from './home/carrossel/carrossel.component';
-import { InfoCardComponent } from './home/info-card/info-card.component'
+import { InfoCardComponent } from './home/info-card/info-card.component';
+import { ModalProdutoComponent } from './produto/modal-produto/modal-produto.component'
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { InfoCardComponent } from './home/info-card/info-card.component'
     FaqComponent,
     FormFaqComponent,
     CarrosselComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    ModalProdutoComponent
   ],
   imports: [
     BrowserModule,

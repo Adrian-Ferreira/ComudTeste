@@ -21,16 +21,20 @@ button:hover{
     width: 125px;
     box-shadow: none;
 }
+#_idproduto .btn{
+    background-color:transparent;
+    border-color:transparent;
+}
 #busca{
     width: 104px;
 }
 .show{
-    background-color: #60a4a8;
+    background-color: transparent;
     margin: auto;
     margin-top: 2%;
-    width: 55%;
+    width: 65%;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 10%;
     text-align: center;
 }

@@ -7,13 +7,13 @@
     margin-left: 10%;
     width: 80%;
     height: 500px;
-    background-image: linear-gradient(to right, #0b6d74e0 , #11b9c5);
+    background-image: linear-gradient(to right, #219199 , #49f3ff);
     border-color: white;
 
 }
 h1{
     text-align: center;
-    margin-top: 47%;
+    margin-top: 10%;
 }
 .card-body{
     border-color: white;

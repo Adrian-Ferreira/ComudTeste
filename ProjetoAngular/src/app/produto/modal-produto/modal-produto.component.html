@@ -1,0 +1,31 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="row">
+
+                        <div *ngIf="_idproduto">
+                            <div class="row">
+                                <div class="col tamanho">
+                                        <img src="{{ _idproduto.linkfoto }}">
+                                        <p><strong>ID do Produto : </strong> {{ _idproduto.idProduto }}</p>
+                                        <p><strong>Titulo : </strong> {{  _idproduto.titulo}} </p>
+                                        <p><strong>Detalhes : </strong> {{  _idproduto.detalhes }}</p>
+                                        <p><strong>Preço : </strong> R${{  _idproduto.preco }},00 </p>
+                                        <p><strong>Quantidade no estoque : </strong> {{ _idproduto.qtdEstoque}}</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Trocar</button>
+            </div>
+        </div>
+    </div>
+</div>
