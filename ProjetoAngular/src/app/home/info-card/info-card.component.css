@@ -17,5 +17,18 @@ h1{
 }
 .card-body{
     border-color: white;
-    
+}
+
+#parallax
+{
+    margin-top: 7%;
+    background-image: url(../../../assets/imagensHome/fundo.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+p{
+    text-align: center;
 }
