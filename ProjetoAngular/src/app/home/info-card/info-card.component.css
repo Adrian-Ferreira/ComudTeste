@@ -51,4 +51,17 @@ border-radius: 50% 0% 0% 50%;
 .t{
     float: left !important;
 }
+#bola2{
+    margin-top: 10%;
+    max-width: 80%;
+    width: 10%;
+    background-color: #49f3ff;
+    border-radius: 50% 0% 0% 50%;
+    /* width: 80%; */
+}
+#bola2 img{
+width: 100%;
+height: 100%;
+border-radius: 0% 50% 50% 0%;
+}
 
