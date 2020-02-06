@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-carrossel',
   templateUrl: './carrossel.component.html',
@@ -10,6 +11,8 @@ export class CarrosselComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
+  
 
 }

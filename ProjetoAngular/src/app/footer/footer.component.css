@@ -26,6 +26,13 @@
     text-align: center;
     
 }
+
+h6{
+  font-size:70%;
+  color:#dedcc5;
+  text-align: center;
+  padding-bottom: 0%;
+}
 .fa {
     font-size: 30px;
     width: 50px;
@@ -77,11 +84,6 @@
   }
   .fa-instagram {
     background: #c43177;
-    color: white;
-    border-radius: 45%;
-  }
-  .fa-pinterest {
-    background: #cd2129;
     color: white;
     border-radius: 45%;
   }
