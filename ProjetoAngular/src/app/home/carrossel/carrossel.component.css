@@ -6,7 +6,20 @@ h2{
     color: #059faa;
    
 }
+.carousel-inner{
+    height: 80%;
+    width: 80%;
+}
+@media(max-width:1000px){
+    .carousel-inner, h2{
+        display: none;
 
+    }
+    /* .carousel-inner img{
+        height:100px;
+        width: 100%;
+    } */
+}
 
 
 
